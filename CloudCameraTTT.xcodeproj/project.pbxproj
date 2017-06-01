@@ -7,21 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60392FF1CFD1789781E07919 /* Pods_CloudCameraTTT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29FE5FF0F87A63CC2BB5F18 /* Pods_CloudCameraTTT.framework */; };
+		7D3EDE3D1E6EF31D000A3324 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3EDE3C1E6EF31D000A3324 /* SignupViewController.swift */; };
+		7D3EDE3F1E6F0036000A3324 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D3EDE3E1E6F0036000A3324 /* GoogleService-Info.plist */; };
+		7D3EDE411E6F049F000A3324 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3EDE401E6F049F000A3324 /* LoginViewController.swift */; };
+		7D3EDE431E6F1642000A3324 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3EDE421E6F1642000A3324 /* UserCell.swift */; };
+		7D3EDE451E6F170D000A3324 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3EDE441E6F170D000A3324 /* UsersViewController.swift */; };
+		7D3EDE4A1E6F1965000A3324 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3EDE491E6F1965000A3324 /* User.swift */; };
+		7D633E981E8030570042D22D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D633E971E8030570042D22D /* Reachability.swift */; };
+		7D633E9A1E8053710042D22D /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D633E991E8053710042D22D /* Comment.swift */; };
+		7D7C64791E7ECB0400247855 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7C64781E7ECB0400247855 /* PreviewViewController.swift */; };
+		7DA96DD51E71A865002FFF4A /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA96DD41E71A865002FFF4A /* CommentCell.swift */; };
+		7DDE60901E703EF200372D2F /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDE608F1E703EF200372D2F /* UploadViewController.swift */; };
+		7DDE60921E704DEF00372D2F /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDE60911E704DEF00372D2F /* PostCell.swift */; };
+		7DDE60941E704E7A00372D2F /* PhotoDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDE60931E704E7A00372D2F /* PhotoDetailController.swift */; };
+		7DDE60961E704FF300372D2F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDE60951E704FF300372D2F /* Post.swift */; };
+		7DDE60981E70506D00372D2F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDE60971E70506D00372D2F /* FeedViewController.swift */; };
+		7DDE609A1E70654C00372D2F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDE60991E70654C00372D2F /* Extensions.swift */; };
 		7DF8C32A1E6DD67900F31B1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF8C3291E6DD67900F31B1C /* AppDelegate.swift */; };
-		7DF8C32C1E6DD67900F31B1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF8C32B1E6DD67900F31B1C /* ViewController.swift */; };
 		7DF8C32F1E6DD67900F31B1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF8C32D1E6DD67900F31B1C /* Main.storyboard */; };
 		7DF8C3311E6DD67900F31B1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF8C3301E6DD67900F31B1C /* Assets.xcassets */; };
 		7DF8C3341E6DD67900F31B1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF8C3321E6DD67900F31B1C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6BF20A5919EDA14ABDB83ED1 /* Pods-CloudCameraTTT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudCameraTTT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudCameraTTT/Pods-CloudCameraTTT.debug.xcconfig"; sourceTree = "<group>"; };
+		7D3EDE3B1E6DD72C000A3324 /* CloudCameraTTT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloudCameraTTT.entitlements; sourceTree = "<group>"; };
+		7D3EDE3C1E6EF31D000A3324 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		7D3EDE3E1E6F0036000A3324 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7D3EDE401E6F049F000A3324 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7D3EDE421E6F1642000A3324 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		7D3EDE441E6F170D000A3324 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		7D3EDE491E6F1965000A3324 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7D633E971E8030570042D22D /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		7D633E991E8053710042D22D /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		7D7C64781E7ECB0400247855 /* PreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		7DA96DD41E71A865002FFF4A /* CommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		7DDE608F1E703EF200372D2F /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		7DDE60911E704DEF00372D2F /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		7DDE60931E704E7A00372D2F /* PhotoDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailController.swift; sourceTree = "<group>"; };
+		7DDE60951E704FF300372D2F /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		7DDE60971E70506D00372D2F /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		7DDE60991E70654C00372D2F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		7DF8C3261E6DD67900F31B1C /* CloudCameraTTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudCameraTTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF8C3291E6DD67900F31B1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7DF8C32B1E6DD67900F31B1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7DF8C32E1E6DD67900F31B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DF8C3301E6DD67900F31B1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DF8C3331E6DD67900F31B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DF8C3351E6DD67900F31B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EF5DC6E214123D654B097B2 /* Pods-CloudCameraTTT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudCameraTTT.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudCameraTTT/Pods-CloudCameraTTT.release.xcconfig"; sourceTree = "<group>"; };
+		B29FE5FF0F87A63CC2BB5F18 /* Pods_CloudCameraTTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudCameraTTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +64,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60392FF1CFD1789781E07919 /* Pods_CloudCameraTTT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		501F682D5307BC4FDE83C14C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B29FE5FF0F87A63CC2BB5F18 /* Pods_CloudCameraTTT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D3EDE461E6F191A000A3324 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7D3EDE3C1E6EF31D000A3324 /* SignupViewController.swift */,
+				7D3EDE401E6F049F000A3324 /* LoginViewController.swift */,
+				7DDE60931E704E7A00372D2F /* PhotoDetailController.swift */,
+				7DDE60971E70506D00372D2F /* FeedViewController.swift */,
+				7D7C64781E7ECB0400247855 /* PreviewViewController.swift */,
+				7DDE608F1E703EF200372D2F /* UploadViewController.swift */,
+				7D3EDE441E6F170D000A3324 /* UsersViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7D3EDE471E6F1928000A3324 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7D3EDE421E6F1642000A3324 /* UserCell.swift */,
+				7DA96DD41E71A865002FFF4A /* CommentCell.swift */,
+				7DDE60911E704DEF00372D2F /* PostCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7D3EDE481E6F1938000A3324 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D3EDE491E6F1965000A3324 /* User.swift */,
+				7D633E991E8053710042D22D /* Comment.swift */,
+				7DDE60951E704FF300372D2F /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7DD8E8CF1E7D8D5100B517B0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				7DDE60991E70654C00372D2F /* Extensions.swift */,
+				7D633E971E8030570042D22D /* Reachability.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
 		7DF8C31D1E6DD67800F31B1C = {
 			isa = PBXGroup;
 			children = (
 				7DF8C3281E6DD67900F31B1C /* CloudCameraTTT */,
 				7DF8C3271E6DD67900F31B1C /* Products */,
+				F6E3B1D223954ABE8B6C9DA6 /* Pods */,
+				501F682D5307BC4FDE83C14C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +143,28 @@
 		7DF8C3281E6DD67900F31B1C /* CloudCameraTTT */ = {
 			isa = PBXGroup;
 			children = (
+				7DD8E8CF1E7D8D5100B517B0 /* Helper */,
+				7D3EDE481E6F1938000A3324 /* Model */,
+				7D3EDE471E6F1928000A3324 /* View */,
+				7D3EDE461E6F191A000A3324 /* Controllers */,
+				7D3EDE3B1E6DD72C000A3324 /* CloudCameraTTT.entitlements */,
 				7DF8C3291E6DD67900F31B1C /* AppDelegate.swift */,
-				7DF8C32B1E6DD67900F31B1C /* ViewController.swift */,
 				7DF8C32D1E6DD67900F31B1C /* Main.storyboard */,
 				7DF8C3301E6DD67900F31B1C /* Assets.xcassets */,
 				7DF8C3321E6DD67900F31B1C /* LaunchScreen.storyboard */,
 				7DF8C3351E6DD67900F31B1C /* Info.plist */,
+				7D3EDE3E1E6F0036000A3324 /* GoogleService-Info.plist */,
 			);
 			path = CloudCameraTTT;
+			sourceTree = "<group>";
+		};
+		F6E3B1D223954ABE8B6C9DA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BF20A5919EDA14ABDB83ED1 /* Pods-CloudCameraTTT.debug.xcconfig */,
+				8EF5DC6E214123D654B097B2 /* Pods-CloudCameraTTT.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DF8C3381E6DD67900F31B1C /* Build configuration list for PBXNativeTarget "CloudCameraTTT" */;
 			buildPhases = (
+				364851EA465CDA99A127216B /* [CP] Check Pods Manifest.lock */,
 				7DF8C3221E6DD67800F31B1C /* Sources */,
 				7DF8C3231E6DD67800F31B1C /* Frameworks */,
 				7DF8C3241E6DD67800F31B1C /* Resources */,
+				60A77EA13CF62E296B5C5FD5 /* [CP] Embed Pods Frameworks */,
+				60269D6CDADC7E96E72A26C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +204,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 4HKPZS96DV;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DF8C3341E6DD67900F31B1C /* LaunchScreen.storyboard in Resources */,
+				7D3EDE3F1E6F0036000A3324 /* GoogleService-Info.plist in Resources */,
 				7DF8C3311E6DD67900F31B1C /* Assets.xcassets in Resources */,
 				7DF8C32F1E6DD67900F31B1C /* Main.storyboard in Resources */,
 			);
@@ -132,13 +244,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		364851EA465CDA99A127216B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		60269D6CDADC7E96E72A26C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudCameraTTT/Pods-CloudCameraTTT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60A77EA13CF62E296B5C5FD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudCameraTTT/Pods-CloudCameraTTT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7DF8C3221E6DD67800F31B1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DF8C32C1E6DD67900F31B1C /* ViewController.swift in Sources */,
+				7DA96DD51E71A865002FFF4A /* CommentCell.swift in Sources */,
+				7D3EDE431E6F1642000A3324 /* UserCell.swift in Sources */,
+				7DDE60941E704E7A00372D2F /* PhotoDetailController.swift in Sources */,
+				7DDE60901E703EF200372D2F /* UploadViewController.swift in Sources */,
+				7D3EDE411E6F049F000A3324 /* LoginViewController.swift in Sources */,
+				7D3EDE4A1E6F1965000A3324 /* User.swift in Sources */,
+				7D3EDE451E6F170D000A3324 /* UsersViewController.swift in Sources */,
+				7D3EDE3D1E6EF31D000A3324 /* SignupViewController.swift in Sources */,
+				7D633E981E8030570042D22D /* Reachability.swift in Sources */,
+				7DDE609A1E70654C00372D2F /* Extensions.swift in Sources */,
+				7D7C64791E7ECB0400247855 /* PreviewViewController.swift in Sources */,
+				7D633E9A1E8053710042D22D /* Comment.swift in Sources */,
+				7DDE60981E70506D00372D2F /* FeedViewController.swift in Sources */,
 				7DF8C32A1E6DD67900F31B1C /* AppDelegate.swift in Sources */,
+				7DDE60921E704DEF00372D2F /* PostCell.swift in Sources */,
+				7DDE60961E704FF300372D2F /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +431,10 @@
 		};
 		7DF8C3391E6DD67900F31B1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BF20A5919EDA14ABDB83ED1 /* Pods-CloudCameraTTT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CloudCameraTTT/CloudCameraTTT.entitlements;
 				DEVELOPMENT_TEAM = 4HKPZS96DV;
 				INFOPLIST_FILE = CloudCameraTTT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -270,8 +446,10 @@
 		};
 		7DF8C33A1E6DD67900F31B1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EF5DC6E214123D654B097B2 /* Pods-CloudCameraTTT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CloudCameraTTT/CloudCameraTTT.entitlements;
 				DEVELOPMENT_TEAM = 4HKPZS96DV;
 				INFOPLIST_FILE = CloudCameraTTT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -300,6 +478,7 @@
 				7DF8C33A1E6DD67900F31B1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
